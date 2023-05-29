@@ -1,4 +1,4 @@
 # vscode-config
 
-- [keybindings](./keybindings.json)
-- [settings](./settings.json)
+[`keybindings`](./keybindings.json)<br>
+[`settings`](./settings.json)<br>
