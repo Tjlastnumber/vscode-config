@@ -1,0 +1,307 @@
+{
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.gpuAcceleration": "off",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "terminal.integrated.tabs.enabled": true,
+    "scm.diffDecorationsGutterWidth": 2,
+    "debug.onTaskErrors": "debugAnyway",
+    "workbench.colorTheme": "Vitesse Dark",
+    "workbench.fontAliasing": "antialiased",
+    "workbench.editor.tabCloseButton": "left",
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
+    "workbench.editorAssociations": {
+        "*.txt": "default"
+    },
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.list.smoothScrolling": true,
+    "workbench.preferredDarkColorTheme": "Vitesse Black",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.sideBar.location": "right",
+    "workbench.tree.expandMode": "singleClick",
+    "workbench.tree.indent": 10,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.editor.limit.value": 5,
+    "files.insertFinalNewline": true,
+    "files.simpleDialog.enable": true,
+    // editor 
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
+    "editor.cursorStyle": "line",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.find.addExtraSpaceOnTop": false,
+    "editor.hover.sticky": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.lineNumbers": "relative",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off",
+    "editor.fontFamily": "CaskaydiaCove Nerd Font, YaHei Consolas Hybrid, Consolas, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "editor.lineHeight": 19,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": false,
+        "source.fixAll.eslint": true,
+        "source.organizeImports": false
+    },
+    "editor.guides.bracketPairs": "active",
+    "editor.inlineSuggest.enabled": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.stickyTabStops": true,
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "all",
+    "editor.accessibilitySupport": "off",
+    "editor.detectIndentation": true,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.mouseWheelScrollSensitivity": 0.5,
+    "editor.suggestSelection": "first",
+    // "[html]": {
+    //     "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
+    // "editor.cursorSmoothCaretAnimation": "on",
+    // "[javascript]": {
+    //     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    // },
+    // "[markdown]": {
+    //     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    //     "editor.quickSuggestions": {
+    //         "comments": "on",
+    //         "strings": "on",
+    //         "other": "on"
+    //     }
+    // },
+    // "[json]": {
+    //     "editor.defaultFormatter": "vscode.json-language-features"
+    // },
+    // "[jsonc]": {
+    //     "editor.defaultFormatter": "vscode.json-language-features"
+    // },
+    // "[yaml]": {
+    //     "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
+    // "[vue]": {
+    //     "editor.defaultFormatter": "octref.vetur"
+    // },
+    "window.dialogStyle": "custom",
+    "search.followSymlinks": false,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.associations": {
+        "*.txt": "python"
+    },
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.neovimUseConfigFile": true,
+    "vim.searchHighlightColor": "#FFD242",
+    "vim.searchHighlightTextColor": "#23230F",
+    "vim.cursorStylePerMode.replace": "block-outline",
+    "vim.cursorStylePerMode.visualblock": "underline",
+    "vim.enableNeovim": true,
+    "vim.hlsearch": true,
+    "vim.neovimConfigPath": "~/.config/nvim/init.lua",
+    "vim.neovimPath": "/opt/homebrew/bin/nvim",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "n"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "lineBreakInsert"
+            ],
+            "silent": true
+        }, {
+            "before": [
+                "leader",
+                "h"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        }, {
+            "before": [
+                "leader",
+                "e"
+            ],
+            "commands": [
+                "workbench.view.explorer"
+            ],
+            "silent": true
+        } 
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-v>": true,
+        "<C-a>": false,
+        "<C-s>": false,
+        "<C-z>": false,
+        "<C-f>": false,
+        "<C-y>": false,
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.enableSmartCommit": true,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "i18n-ally.autoDetection": false,
+    "i18n-ally.displayLanguage": "en",
+    "i18n-ally.ignoredLocales": [],
+    // leetcode
+    "leetcode.endpoint": "leetcode-cn",
+    "leetcode.workspaceFolder": "C:\\Users\\sxh\\.leetcode",
+    "leetcode.defaultLanguage": "javascript",
+    "leetcode.hint.commandShortcut": false,
+    "leetcode.hint.configWebviewMarkdown": false,
+    "files.eol": "\n",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.copyRelativePathSeparator": "/",
+    "markdown.preview.fontSize": 13,
+    "window.commandCenter": true,
+    "eslint.codeAction.showDocumentation": {
+        "enable": true
+    },
+    "eslint.quiet": true,
+    "eslint.format.enable": true,
+    "eslint.run": "onSave",
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue",
+        "html",
+        "markdown",
+        "jsonc",
+        "json5"
+    ],
+    "prettier.enable": false,
+    // "prettier.jsxSingleQuote": true,
+    // "prettier.semi": false,
+    // "prettier.vueIndentScriptAndStyle": true,
+    // "prettier.singleQuote": true,
+    // "vetur.format.defaultFormatter.js": "prettier",
+    // // "vetur.format.defaultFormatter.js": "vscode-typescript",
+    // "vetur.format.defaultFormatter.ts": "prettier-tslint",
+    // "vetur.format.defaultFormatter.html": "prettyhtml",
+    // "vetur.format.defaultFormatterOptions": {
+    //     "js-beautify-html": {
+    //         "wrap_attributes": "force-expand-multiline",
+    //     },
+    //     "prettier": {
+    //         "singleQuote": true,
+    //         "semi": false,
+    //         "eslintIntegration": true,
+    //         "trailingComma": "none",
+    //         "insertSpaceBeforeFunctionParenthesis": true,
+    //         "insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    //         "autoFix": true
+    //     },
+    //     "prettyhtml": {
+    //         "printWidth": 100,
+    //         "singleQuote": false,
+    //         "wrapAttributes": true,
+    //         "sortAttributes": false
+    //     }
+    // },
+    // "vetur.completion.scaffoldSnippetSources": {
+    //     "workspace": "💼",
+    //     "user": "🗒️",
+    //     "vetur": "✌"
+    // },
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "workbench.colorCustomizations": {
+        "[Material Theme Palenight]": {}
+    },
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "auto-close-tag.excludedTags": [
+        "area",
+        "base",
+        "br",
+        "col",
+        "command",
+        "embed",
+        "hr",
+        "img",
+        "input",
+        "keygen",
+        "link",
+        "meta",
+        "param",
+        "source",
+        "track",
+        "wbr"
+    ],
+    "code-runner.executorMap": {
+        "java": "cd $dir && ~/.sdkman/candidates/java/current/bin/javac $fileName && ~/.sdkman/candidates/java/current/bin/java $fileNameWithoutExt"
+    },
+    "code-runner.enableAppInsights": true,
+    "terminal.integrated.smoothScrolling": true,
+    "redhat.telemetry.enabled": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "search.exclude": {
+        "**/.git": true,
+        "**/.github": true,
+        "**/.nuxt": true,
+        "**/.output": true,
+        "**/.pnpm": true,
+        "**/.vscode": true,
+        "**/.yarn": true,
+        "**/bower_components": true,
+        "**/dist/**": true,
+        "**/logs": true,
+        "**/node_modules": true,
+        "**/out/**": true,
+        "**/package-lock.json": true,
+        "**/pnpm-lock.yaml": true,
+        "**/tmp": true,
+        "**/yarn.lock": true
+    },
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": false,
+    "errorLens.enabledDiagnosticLevels": [
+        "warning",
+        "error"
+    ],
+    "errorLens.excludeBySource": [
+        "cSpell",
+        "Grammarly",
+        "eslint"
+    ],
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+}
